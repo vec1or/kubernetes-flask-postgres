@@ -1,0 +1,13 @@
+flask:
+  image: demo-flask:k3s-v2
+  imagePullPolicy: Never
+  replicas: 1
+  port: 5000
+  environment: development
+
+postgres:
+  image: postgres:17
+  user: devops
+  database: demoapp
+  storage: 1Gi
+  storageClass: local-path
