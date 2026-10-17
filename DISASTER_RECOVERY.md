@@ -2,11 +2,11 @@
 
 ## Kubernetes Flask + PostgreSQL Infrastructure
 
-**Project:** Kubernetes Flask PostgreSQL  
-**Environment:** Local Ubuntu Server VM (VirtualBox)  
-**Orchestration:** K3s Kubernetes  
-**Deployment:** Helm  
-**Database:** PostgreSQL 17  
+**Project:** Kubernetes Flask PostgreSQL
+**Environment:** Local Ubuntu Server VM (VirtualBox)
+**Orchestration:** K3s Kubernetes
+**Deployment:** Helm
+**Database:** PostgreSQL 17
 **Container Registry:** GitHub Container Registry (GHCR)
 
 ---
@@ -423,7 +423,7 @@ Future improvements include:
 
 ---
 
-**Document status:** Educational disaster recovery runbook  
-**RPO target:** 24 hours  
-**RTO target:** 2 hours  
+**Document status:** Educational disaster recovery runbook
+**RPO target:** 24 hours
+**RTO target:** 2 hours
 **Validation:** Partial — application rollback and isolated PostgreSQL restoration have been practiced; complete VM-loss recovery has not been tested.
